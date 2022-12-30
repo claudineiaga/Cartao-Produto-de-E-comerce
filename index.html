@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Cartão de Produto</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <div id="make-3D-space">
+        <div id="product-card">
+            <div id="product-front">
+                <div class="shadow"></div>
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/t-shirt.png" alt="" />
+                <div class="image_overlay"></div>
+                <div id="view_details">Ver Detalhes</div>
+                <div class="stats">        	
+                    <div class="stats-container">
+                        <span class="product_price">R$ 390,00</span>
+                        <span class="product_name">Adidas Original</span>    
+                        <p>Camisa de Corrida Masculina</p>                                            
+                        
+                        <div class="product-options">
+                        <strong>Tamanhos: </strong>
+                        <span>PP, P, M, G, GG, XG</span>
+                        <strong>CORES: </strong>
+                        <div class="colors">
+                            <div class="c-blue"><span></span></div>
+                            <div class="c-red"><span></span></div>
+                            <div class="c-white"><span></span></div>
+                            <div class="c-green"><span></span></div>
+                        </div>
+                    </div>                       
+                    </div>                         
+                </div>
+            </div>
+            <div id="product-back">
+                <div class="shadow"></div>
+                <div id="carousel">
+                    <ul>
+                        <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/t-shirt-large.png" alt="" /></li>
+                        <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/t-shirt-large2.png" alt="" /></li>
+                        <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/t-shirt-large3.png" alt="" /></li>
+                    </ul>
+                    <div class="arrows-perspective">
+                        <div class="carouselPrev">
+                            <div class="y"></div>
+                            <div class="x"></div>
+                        </div>
+                        <div class="carouselNext">
+                            <div class="y"></div>
+                            <div class="x"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="flip-back">
+                    <div id="cy"></div>
+                    <div id="cx"></div>
+                </div>
+            </div>	  
+        </div>	
+    </div>	
+    <script src='main.js'></script>
+    
+</body>
+</html>
